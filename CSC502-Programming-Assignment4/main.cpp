@@ -18,7 +18,7 @@
 #define SIZE 10
 
 // Uncomment this preprocessor directive for the CSC 502 extra requirement or CSC 402 extra credit
-// #define CSC502
+ #define CSC502 true
 
 using namespace std;
 
@@ -89,13 +89,13 @@ int main()
     print(intVector);
     cout << "isSorted(intVector): " << isSorted(intVector) << endl;
     
-#ifndef CSC502
+//#ifndef CSC502
     cout << "Using local sort" << endl;
     sort(intVector);
-#else
-    cout << "Using std::sort" << endl;
-    std::sort(intVector.begin(), intVector.end());
-#endif
+//#else
+//    cout << "Using std::sort" << endl;
+//    std::sort(intVector.begin(), intVector.end());
+//#endif
     
     cout << endl << "intVector after sorting:" << endl;
     print(intVector);
@@ -111,13 +111,13 @@ int main()
     print(charVector);
     cout << "isSorted(charVector): " << isSorted(charVector) << endl;
     
-#ifndef CSC502
+//#ifndef CSC502
     cout << "Using local sort" << endl;
     sort(charVector);
-#else
-    cout << "Using std::sort" << endl;
-    std::sort(charVector.begin(), charVector.end());
-#endif
+//#else
+//    cout << "Using std::sort" << endl;
+//    std::sort(charVector.begin(), charVector.end());
+//#endif
     
     cout << endl << "charVector after sorting:" << endl;
     print(charVector);
@@ -210,8 +210,8 @@ int main()
     cout << "cc2 = " << cc2 << endl;
     cout << "cc1 < cc2 is " << (cc1 < cc2) << endl;
     
-    cout << "Hit any key to end the program..." << endl;
-    cin.get();    // portable "pause"
+//    cout << "Hit any key to end the program..." << endl;
+//    cin.get();    // portable "pause"
     
     return 0;
     
@@ -225,15 +225,15 @@ void print(const vector<T>  & v)
     int size = v.size();
     if (size > 100) {
         for (int i = 0; i < 10; i++)
-            cout << &v[i] << "\t";
+            cout << v[i] << "\t";
         cout << " ... " << endl;
         for (int i = 0; i < 10; i++)
-            cout << &v[size - (i + 1)] << "\t";
+            cout << v[size - (i + 1)] << "\t";
         cout << endl;
     }
     else {
         for (auto item : v)
-            cout << &item << "\t";
+            cout << item << "\t";
         
         // If you use g++ and don't have a C++11 compatible version, use these lines instead
         // for (int i = 0; i << v.size(); i++)

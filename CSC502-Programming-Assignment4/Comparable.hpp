@@ -29,10 +29,10 @@ public:
     }
     
     bool operator==(const Comparable<T> &lhs) const { return lhs.getValue() == value; }
-    bool operator<(const Comparable<T> &lhs) const { return lhs.getValue() < value; }
-    bool operator>(const Comparable<T> &lhs) const { return lhs.getValue() > value; }
-    bool operator<=(const Comparable<T> &lhs) const { return lhs.getValue() <= value; }
-    bool operator>=(const Comparable<T> &lhs) const { return lhs.getValue() >= value; }
+    bool operator<(const Comparable<T> &lhs) const { return lhs.getValue() > value; }
+    bool operator>(const Comparable<T> &lhs) const { return lhs.getValue() < value; }
+    bool operator<=(const Comparable<T> &lhs) const { return lhs.getValue() >= value; }
+    bool operator>=(const Comparable<T> &lhs) const { return lhs.getValue() <= value; }
     bool operator!=(const Comparable<T> &lhs) const { return lhs.getValue() != value; }
     
 
@@ -43,6 +43,9 @@ private:
 
 };
 
+/**
+ For this one, we're assuming that the type T has an implementation of the << operator
+ */
 template<typename T> ostream & operator << (ostream & out, const Comparable<T> cmp){
     cmp.print();
     return out;
