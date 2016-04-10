@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CSC502-Programming-Assignment4/Comparable.hpp"
+            timestampString = "482002877.486795"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "operator &lt;&lt; (ostream &amp; out, const Comparable&lt;T&gt; cmp)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "std::__1::basic_ostream&lt;char, std::__1::char_traits&lt;char&gt; &gt;&amp; operator&lt;&lt;&lt;int&gt;(std::__1::basic_ostream&lt;char, std::__1::char_traits&lt;char&gt; &gt;&amp;, Comparable&lt;int&gt;)"
+                  moduleName = "CSC502-Programming-Assignment4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pridemai/Documents/Xcode%20Projects/CSC502-Programming-Assignment4/CSC502-Programming-Assignment4/Comparable.hpp"
+                  timestampString = "482002924.45589"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "std::__1::basic_ostream&lt;char, std::__1::char_traits&lt;char&gt; &gt;&amp; operator&lt;&lt;&lt;char&gt;(std::__1::basic_ostream&lt;char, std::__1::char_traits&lt;char&gt; &gt;&amp;, Comparable&lt;char&gt;)"
+                  moduleName = "CSC502-Programming-Assignment4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pridemai/Documents/Xcode%20Projects/CSC502-Programming-Assignment4/CSC502-Programming-Assignment4/Comparable.hpp"
+                  timestampString = "482002924.457386"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "29">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "std::__1::basic_ostream&lt;char, std::__1::char_traits&lt;char&gt; &gt;&amp; operator&lt;&lt;&lt;double&gt;(std::__1::basic_ostream&lt;char, std::__1::char_traits&lt;char&gt; &gt;&amp;, Comparable&lt;double&gt;)"
+                  moduleName = "CSC502-Programming-Assignment4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pridemai/Documents/Xcode%20Projects/CSC502-Programming-Assignment4/CSC502-Programming-Assignment4/Comparable.hpp"
+                  timestampString = "482002924.457564"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "std::__1::basic_ostream&lt;char, std::__1::char_traits&lt;char&gt; &gt;&amp; operator&lt;&lt;&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;(std::__1::basic_ostream&lt;char, std::__1::char_traits&lt;char&gt; &gt;&amp;, Comparable&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;)"
+                  moduleName = "CSC502-Programming-Assignment4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pridemai/Documents/Xcode%20Projects/CSC502-Programming-Assignment4/CSC502-Programming-Assignment4/Comparable.hpp"
+                  timestampString = "482002924.457713"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "19">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "std::__1::basic_ostream&lt;char, std::__1::char_traits&lt;char&gt; &gt;&amp; operator&lt;&lt;&lt;Integer&gt;(std::__1::basic_ostream&lt;char, std::__1::char_traits&lt;char&gt; &gt;&amp;, Comparable&lt;Integer&gt;)"
+                  moduleName = "CSC502-Programming-Assignment4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pridemai/Documents/Xcode%20Projects/CSC502-Programming-Assignment4/CSC502-Programming-Assignment4/Comparable.hpp"
+                  timestampString = "482002924.457869"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "19">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "std::__1::basic_ostream&lt;char, std::__1::char_traits&lt;char&gt; &gt;&amp; operator&lt;&lt;&lt;Character&gt;(std::__1::basic_ostream&lt;char, std::__1::char_traits&lt;char&gt; &gt;&amp;, Comparable&lt;Character&gt;)"
+                  moduleName = "CSC502-Programming-Assignment4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pridemai/Documents/Xcode%20Projects/CSC502-Programming-Assignment4/CSC502-Programming-Assignment4/Comparable.hpp"
+                  timestampString = "482002924.45808"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
